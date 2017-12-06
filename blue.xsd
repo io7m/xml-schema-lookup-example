@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema
+  targetNamespace="urn:com.io7m.example:blue"
+  elementFormDefault="qualified"
+  xmlns:blue="urn:com.io7m.example:blue"
+  xmlns="http://www.w3.org/2001/XMLSchema">
+
+  <element name="blue">
+    <complexType>
+      <attribute name="blam" use="required" type="int"/>
+    </complexType>
+  </element>
+</schema>

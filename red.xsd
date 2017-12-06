@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema
+  targetNamespace="urn:com.io7m.example:red"
+  elementFormDefault="qualified"
+  xmlns:blue="urn:com.io7m.example:red"
+  xmlns="http://www.w3.org/2001/XMLSchema">
+
+  <element name="red">
+    <complexType>
+      <attribute name="zap" use="required" type="int"/>
+    </complexType>
+  </element>
+</schema>
